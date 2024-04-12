@@ -16,6 +16,13 @@
     padding-right: 12px;
     padding-left: 12px;
 }
+.nav_container{
+    max-width: 1350px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 12px;
+    padding-left: 12px;
+}
 
 :root {
     --fs-xs: 14px;
@@ -221,7 +228,7 @@
 .bg-hero-img {
     background-image: url(../images/png/bg-hero-img.png);
     background-position: center;
-    background-size: 100% 84%;
+    background-size: 100% 81%;
     background-repeat: no-repeat;
 }
 
@@ -243,24 +250,25 @@
     border-radius: 40px;
 }
 
-.pt-lg-81 {
-    padding-top: 81px;
-}
+
 .max-w-985{
     max-width: 1209px;
 }
 .pt-30{
     padding-top: 30px;
 }
+.max-w-515 {
+    max-width: 515px;
+}
 
 @media (min-width:992px) {
     .gap-lg-51 {
         gap: 51px;
     }
-
-    .max-w-515 {
-        max-width: 515px;
+    .pt-lg-81 {
+        padding-top: 81px;
     }
+   
 }
 
 @media (max-width:992px) {
@@ -339,4 +347,8 @@
         position: relative;
         top: -33px;
     }
+    .text_center{
+        text-align: center;
+    }
+  
 }
