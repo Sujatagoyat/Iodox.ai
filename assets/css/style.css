@@ -25,7 +25,12 @@
 }
 
 :root {
-    --fs-xs: 14px;
+    --fs-3xs:9px;
+    --fs-xxs:10px;
+    --fs-xsm:11px;
+    --fs-xs:12px;
+    --fs-sm:13px;
+    --fs-s: 14px;
     --fs-sm: 15px;
     --fs-md: 16px;
     --fs-lg: 18px;
@@ -41,6 +46,8 @@
     --fc-white: #FBFDFF;
     --fc-bodyclr: #020D15;
     --fc-darkblue:#0389FF1F;
+    --fc-borderclr:#1A2B37;
+    --fc-darkgrey:#011321;
 }
 
 /* ====================== font clr ===================== */
@@ -60,8 +67,23 @@
 }
 
 /* ======================== font size ================================== */
-.text-14 {
+.text-9 {
+    font-size: var(--fs-3xs);
+}
+.text-10 {
+    font-size: var(--fs-xxs);
+}
+.text-11 {
+    font-size: var(--fs-xsm);
+}
+.text-12 {
     font-size: var(--fs-xs);
+}
+.text-13 {
+    font-size: var(--fs-sm);
+}
+.text-14 {
+    font-size: var(--fs-s);
 }
 
 .text-15 {
@@ -484,12 +506,89 @@ max-width: 948px;
      border-radius: 40px;
      border: 2px solid transparent;
 }
+.py-lg-55{
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+/* ============================== how it works ======================================== */
+.gap-6{
+    gap: 6px;
+}
+.add-btn{
+    background: linear-gradient(159.94deg, rgba(0, 136, 255, 0.58) -14.36%, #0069E3 113.71%);
+    padding:4px 15px;
+    border-radius: 40px;
+    border: 2px solid transparent;
+    /* box-shadow: 0px 4px 32px 0px #2746ED80; */
+    transition: all 200ms linear;
+    max-width: 129px;
+}
+.pt-10{
+    padding-top: 10px;
+}
+.pb-10{
+    padding-bottom: 10px;
+}
+.dotted-border{
+    border: 1px dotted var(--fc-blue);
+    padding: 9px 7px;
+    border-radius: 5px;
+    max-width: 161px;
+}
+.get-box{
+    max-width: 189px;
+    width: 100%;
+    border-radius: 22px;
+    border: 1px solid var(--fc-borderclr);
+    padding: 19px 14px;
+    background: var(--fc-darkgrey);
+}
+.pb-10{
+    padding-bottom: 10px;
+}
+.get-parent-box{
+    max-width: 231px;
+    width: 100%;
+    padding: 23px 20px 20px 21px;
+    background: var(--fc-darkblue);
+    border-radius: 15px;
+}
+.plus-img{
+    top: -17px;
+    right: 18px;
+}
+.arrow-pstn{
+    position: absolute;
+    top: 50%;
+    right: -14px;
+}
+input[type="checkbox"] {
+    appearance: none;
+    -webkit-appearance: none;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    padding: 11px;
+    border: 0.6px solid var(--fc-white);
+}
+input[type="checkbox"]:checked::before {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    width: 5px;
+    height: 12px;
+    border: solid #ffffff;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
 
 @media (min-width:576px) {
     :root{
         --fs-4xl: 48px;
         --fs-2xl: 32px;
-        --fs-3xl: 44px;
+        --fs-3xl: 32px;
     }
     .lh-60 {
         line-height: 60.48px;
@@ -536,6 +635,9 @@ max-width: 948px;
     .pb-md-50{
         padding-bottom: 50px;
     }
+    :root{
+        --fs-3xl: 40px; 
+    }
 }
 @media (min-width:992px) {
     .gap-lg-51 {
@@ -552,6 +654,9 @@ max-width: 948px;
     }
     .pb-lg-44{
         padding-bottom: 34px;
+    }
+    :root{
+        --fs-3xl: 44px; 
     }
    
 }
