@@ -277,7 +277,7 @@
     max-width: 467px;
 }
 .max-w-474{
-    max-width: 474px;
+    max-width: 474.98px;
 }
 .watch-btn{
     padding: 8px 22px;
@@ -328,17 +328,17 @@
     border-radius: 10px;
     Padding:13px 16px 13px 16px
 }
-.pb-lg-44{
-    padding-bottom: 34px;
-}
+
 .pt-lg-30{
     padding-top: 30px;
 }
-.pb-lg-112{
+.py-lg_112_94{
     padding-bottom: 112px;
-}
-.pt-lg-94{
     padding-top: 94px;
+}
+.py-20{
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .max-w-645{
     max-width: 645px;
@@ -372,9 +372,7 @@
 .pt-13{
     padding-top: 13px;
 }
-.pb-lg-130{
-    padding-bottom: 130px;
-}
+
 .slick-prev, .slick-next {
     display:none !important;
 }
@@ -387,6 +385,25 @@
 .responsive .slick-track{
     display: flex !important;
     gap: 30px !important;
+}
+.slick-dots li button:before {
+    content: unset !important;
+}
+
+.slick-dots li {
+    content: unset;
+    width: 10px !important;
+    height: 10px !important;
+    background: var(--fc-white);
+    margin: 7px;
+    border-radius: 21px;
+    transition: all 300ms linear;
+    z-index: 2;
+}
+
+.slick-dots li.slick-active {
+    background: var(--fc-blue);
+    width: 60px !important;
 }
 /* .responsive .slick-slide{
 max-width: 948px; 
@@ -457,6 +474,17 @@ max-width: 948px;
     transition: all 300ms linear;
 }
 
+/* =============================== we provide solution ====================================== */
+.opacity_70{
+    opacity: 70%;
+}
+.lrn-btn{
+    background: linear-gradient(159.94deg, rgba(0, 136, 255, 0.58) -14.36%, #0069E3 113.71%);
+     padding: 13px 32px;
+     border-radius: 40px;
+     border: 2px solid transparent;
+}
+
 @media (min-width:576px) {
     :root{
         --fs-4xl: 48px;
@@ -492,6 +520,22 @@ max-width: 948px;
     :root{
         --fs-xl: 20px;
     }
+    .py-sm-40{
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+    .pb-sm-30{
+        padding-bottom: 30px;
+    }
+}
+@media (min-width:768px) {
+    .py-md-50{
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .pb-md-50{
+        padding-bottom: 50px;
+    }
 }
 @media (min-width:992px) {
     .gap-lg-51 {
@@ -503,14 +547,14 @@ max-width: 948px;
     .pb-lg-46{
         padding-bottom: 46px;
     }
+    .pb-lg-130{
+        padding-bottom: 130px;
+    }
+    .pb-lg-44{
+        padding-bottom: 34px;
+    }
    
 }
-@media (min-width:1200px) {
-    .w_100{
-        width: 100%;
-    }
-}
-
 
 @media (max-width:992px) {
 
@@ -599,4 +643,9 @@ max-width: 948px;
     }
   
   
+}
+@media (max-width:1200px) {
+    .w_100{
+        width: 100%;
+    }
 }
