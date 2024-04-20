@@ -812,6 +812,15 @@ input[type="checkbox"]:checked {
     top: 66%;
     display: block;
 }
+.max-w-292{
+    max-width: 292px;
+}
+.max-w-300{
+    max-width: 300px;
+}
+.max-w-293{
+    max-width: 293px;
+}
 /* .acc-line-4{
     border: 1px solid var(--fc-borderclr);
     top: 0%;
