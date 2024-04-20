@@ -757,14 +757,66 @@ input[type="checkbox"]:checked {
     top: 36%;
 } */
 /* ========================================= accelerate your ================================= */
-.pt-lg-32{
+.pt-lg-32 {
     padding-top: 32px;
 }
-.mt-lg-28{
+
+.mt-lg-28 {
     margin-top: 28px;
 }
 
+.gap-lg-23 {
+    gap: 23px;
+}
 
+.pb-lg-20 {
+    padding-bottom: 20px;
+}
+.pb-30{
+    padding-bottom: 30px;
+}
+
+
+
+
+.pb-lg-23 {
+    padding-bottom: 23px;
+}
+
+.mb-lg-48{
+    margin-bottom: 48px;
+}
+
+.select-btn {
+    padding: 13px 32px;
+    border: 1px solid var(--fc-white);
+    background: transparent;
+    border-radius: 40px;
+}
+
+.mt-30{
+    margin-top: 30px;
+    /* margin-bottom: 30px; */
+}
+.acc-line-1{
+    border: 1px solid var(--fc-borderclr);
+    top: 0%;
+}
+.acc-line-2{
+    border: 1px solid var(--fc-borderclr);
+    top: 33%;
+    display: block;
+}
+.acc-line-3{
+    border: 1px solid var(--fc-borderclr);
+    top: 66%;
+    display: block;
+}
+/* .acc-line-4{
+    border: 1px solid var(--fc-borderclr);
+    top: 0%;
+    display: block;
+} */
 @media (max-width:768px) and (min-width:576px) {
     .Y-line-3 {
         width: 100%;
@@ -772,6 +824,7 @@ input[type="checkbox"]:checked {
         top: 77%;
     }
 }
+
 @media (min-width:576px) {
     :root {
         --fs-4xl: 48px;
@@ -829,14 +882,15 @@ input[type="checkbox"]:checked {
         border: 1px solid var(--fc-borderclr);
         top: 26%;
     }
-    .Y-line-2{
+
+    .Y-line-2 {
         width: 100%;
         border: 1px solid var(--fc-borderclr);
         top: 52%;
         display: block;
     }
 
-   
+
 
 }
 
@@ -889,12 +943,43 @@ input[type="checkbox"]:checked {
         border: 1px solid var(--fc-borderclr);
         top: 36%;
     }
-    .Y-line-2{
+
+    .Y-line-2 {
         width: 100%;
         border: 1px solid var(--fc-borderclr);
         top: 71%;
         display: block;
     }
+    .acc-line-1{
+        border: 1px solid var(--fc-borderclr);
+        top: 16%;
+    }
+    .acc-line-2{
+        border: 1px solid var(--fc-borderclr);
+        top: 50%;
+        display: block;
+    }
+    .acc-line-3{
+        border: 1px solid var(--fc-borderclr);
+        top: 66%;
+        display: block;
+    }
+    .acc-line-4{
+        border: 1px solid var(--fc-borderclr);
+        top: 0%;
+        display: block;
+    }
+    .pb-lg-81 {
+        padding-bottom: 81px;
+    }
+    
+    .pt-lg-51 {
+        padding-top: 51px;
+    }
+    .mt-lg-87{
+        margin-top: 87px;
+    }
+   
 }
 
 @media (min-width:992px) {
@@ -972,19 +1057,43 @@ input[type="checkbox"]:checked {
         border: 1px solid var(--fc-borderclr);
         top: 50%;
     }
-    .Y-line-2{
+
+    .Y-line-2 {
         width: 100%;
         border: 1px solid var(--fc-borderclr);
         top: 25%;
         display: none;
     }
-    .pt-lg-121{
+
+    .pt-lg-121 {
         padding-top: 121px;
     }
+
     .max-w-474 {
         max-width: 474.98px;
     }
-
+    .acc-line-1{
+        border: 1px solid var(--fc-borderclr);
+        top: 28%;
+    }
+    .acc-line-2{
+        border: 1px solid var(--fc-borderclr);
+        top: 30%;
+        display: none;
+    }
+    .acc-line-3{
+        border: 1px solid var(--fc-borderclr);
+        top: 50%;
+        display: none;
+    }
+    .acc-line-4{
+        border: 1px solid var(--fc-borderclr);
+        top: 66%;
+        display: none;
+    }
+    .pb-lg-56 {
+        padding-bottom: 56px;
+    }
 
 }
 
@@ -1000,6 +1109,7 @@ input[type="checkbox"]:checked {
         right: -48px;
     }
 }
+
 @media (max-width:768px) {}
 
 @media (max-width:992px) {
