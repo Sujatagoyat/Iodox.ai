@@ -52,6 +52,8 @@
     --fc-darkgrey: #011321;
     --fc-select: #00000054;
     --fc-black: #000000;
+    --fc-footerbg: #0389FF14;
+
 
 }
 
@@ -474,9 +476,6 @@
     width: 60px !important;
 }
 
-/* .responsive .slick-slide{
-max-width: 948px; 
-} */
 .acc-border {
     position: relative;
     padding: 18px 24px;
@@ -492,20 +491,6 @@ max-width: 948px;
     height: unset;
 }
 
-/* .acc-border::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-radius: 6px;
-    padding: 2px;
-    background: linear-gradient(146.26deg, rgba(238, 221, 191, 0.32) 6.74%, rgba(199, 138, 17, 0.32) 110.03%);
-    -webkit-mask:
-        linear-gradient(#fff 0 0) content-box,
-        linear-gradient(#fff 0 0);
-    -webkit-mask-composite: xor;
-    mask-composite: exclude;
-} */
-
 .accordion-1 {
     border-radius: 6px;
 }
@@ -517,23 +502,6 @@ max-width: 948px;
     transition: all 400ms linear;
     margin-bottom: 24px;
 }
-
-/* .accordionHead::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-radius: 6px;
-    padding: 1px;
-    background: linear-gradient(146.26deg, rgba(238, 221, 191, 0.32) 6.74%, rgba(199, 138, 17, 0.32) 110.03%);
-    border: 0.5px solid;
-    border-image-source: linear-gradient(146.26deg, rgba(238, 221, 191, 0.32) 6.74%, rgba(199, 138, 17, 0.32) 110.03%);
-    -webkit-mask:
-        linear-gradient(#fff 0 0) content-box,
-        linear-gradient(#fff 0 0);
-    -webkit-mask-composite: xor;
-    mask-composite: exclude;
-    transition: all 300ms linear;
-} */
 
 .accordion1.active {
     border-radius: 6px;
@@ -751,11 +719,6 @@ input[type="checkbox"]:checked {
     padding-bottom: 20px;
 }
 
-/* .Y-line {
-    width: 100%;
-    border: 1px solid var(--fc-borderclr);
-    top: 36%;
-} */
 /* ========================================= accelerate your ================================= */
 .pt-lg-32 {
     padding-top: 32px;
@@ -776,10 +739,6 @@ input[type="checkbox"]:checked {
 .pb-30 {
     padding-bottom: 30px;
 }
-
-
-
-
 .pb-lg-23 {
     padding-bottom: 23px;
 }
@@ -835,13 +794,10 @@ input[type="checkbox"]:checked {
     background-repeat: no-repeat;
     background-size: cover;
 }
-
-
 .py-30{
     padding-top: 30px;
     padding-bottom: 30px;
 }
-
 .max-w-617 {
     max-width: 617px;
 }
@@ -854,7 +810,7 @@ input[type="checkbox"]:checked {
 
 .sign-btn {
     background: linear-gradient(159.94deg, rgba(0, 136, 255, 0.58) -14.36%, #0069E3 113.71%);
-    padding: 13px 32px;
+    padding: 10px 12px;
     border-radius: 40px;
     border: 2px solid transparent;
 }
@@ -862,10 +818,50 @@ input[type="checkbox"]:checked {
 .mail-box {
     max-width: 520px;
     width: 100%;
-    min-height: 55px;
+    min-height: 45px;
     background: #FBFDFF12;
     border-radius: 29px;
     padding-left: 33px;
+}
+.bg-f-clr{
+    background: var(--fc-footerbg);
+}
+/* ===================================== footer =========================================== */
+.max-w-225{
+    max-width: 225px;
+}
+.svg-box{
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background: transparent;
+}
+.gap-10{
+    gap: 10px;
+}
+.pt-lg-103{
+    padding-top: 103px;
+}
+.opacity_60{
+    opacity: 60%;
+}
+
+.f_bootom_border{
+    border-bottom: 1px solid var(--fc-borderclr);
+}
+.mt-10{
+    margin-top: 10px;
+}
+.py-27{
+    padding-top: 27px;
+    padding-bottom: 27px;
+}
+.max-w-419{
+    max-width: 419px;
+}
+.mb-5{
+    margin-bottom: -5px;
 }
 
 @media (max-width:768px) and (min-width:576px) {
@@ -940,8 +936,23 @@ input[type="checkbox"]:checked {
         top: 52%;
         display: block;
     }
-
-
+    .sign-btn {
+        background: linear-gradient(159.94deg, rgba(0, 136, 255, 0.58) -14.36%, #0069E3 113.71%);
+        padding: 13px 32px;
+        border-radius: 40px;
+        border: 2px solid transparent;
+    }
+    .mail-box {
+        max-width: 520px;
+        width: 100%;
+        min-height: 55px;
+        background: #FBFDFF12;
+        border-radius: 29px;
+        padding-left: 33px;
+    }
+    .mb-sm-10{
+        margin-bottom: 10px;
+    }
 
 }
 
@@ -1040,6 +1051,9 @@ input[type="checkbox"]:checked {
     .py-md-70{
         padding-top: 70px;
         padding-bottom: 70px;
+    }
+    .mt-md-30{
+        margin-top: 30px;
     }
 
 }
@@ -1165,6 +1179,9 @@ input[type="checkbox"]:checked {
         padding-top: 121px;
         padding-bottom: 126px;
     }
+    .mt-lg-95{
+        margin-top: 95px;
+    }
 
 }
 
@@ -1181,7 +1198,11 @@ input[type="checkbox"]:checked {
     }
 }
 
-@media (max-width:768px) {}
+@media (max-width:768px) {
+    .ps_0{
+        padding-left: 0;
+    }
+}
 
 @media (max-width:992px) {
 
