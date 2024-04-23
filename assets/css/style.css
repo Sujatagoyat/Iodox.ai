@@ -992,7 +992,7 @@ input[type="checkbox"]:checked {
     /* display: none !important; */
 }
 
-.timeSaving_box {
+.Saving_box {
     background: var(--fc-darkblue);
     padding: 22px 22px;
     max-width: 531px;
@@ -1012,22 +1012,22 @@ input[type="checkbox"]:checked {
     transition: all 300ms linear;
 }
 
-.timeSaving_box.active .accordionpara {
+.Saving_box.active .accordionpara {
     height: unset;
 }
 
-.timeSaving_box.active {
+.Saving_box.active {
     padding: 17px 10px;
     /* min-height: 135px; */
     height: 100%;
    max-width: 531px;
 }
 
-.timeSaving_box.active .accordionHead .timeSaving_Iconbox {
+.Saving_box.active .accordionHead .svg_Iconbox {
     display: block;
 }
 
-.timeSaving_box.active .accordionHead .content {
+.Saving_box.active .accordionHead .content {
     color: var(--fc-blue);
 }
 .color-blue{
