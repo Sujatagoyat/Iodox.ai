@@ -1,11 +1,9 @@
-const menulist = document.querySelector(".menulist")
-const menuIcon = document.querySelector(".menuIcon")
 
-menuIcon.addEventListener("click", function () {
-  menulist.classList.toggle("show");
+function opeNav(){
+  document.getElementById("navbar").classList.toggle("start-0")
   document.body.classList.toggle("overFlowHidden")
   document.querySelector(".menuIcon").classList.toggle("cross")
-})
+}
 $('.parentBox').slick({
   arrows: false,
   dots: false,
@@ -76,3 +74,15 @@ const accordionHead = document.querySelectorAll(".accordionHead");
           $(this).addClass('active');
       })
     });
+    const topBtn = document.querySelector(".topBtn");
+const show = document.querySelector(".show"); 
+    window.addEventListener("scroll", function () {
+      if (window.scrollY >600) {
+          topBtn.classList.add("show");
+      } else {
+          topBtn.classList.remove("show");
+      } 
+  })
+  topBtn.addEventListener("click", function () {
+      document.documentElement.scrollTop = 0;
+  })

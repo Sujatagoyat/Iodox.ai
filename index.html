@@ -16,30 +16,30 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
-<body class="body-bg-clr">
+<body class="body-bg-clr overflow-x-hidden">
     <header class=" bg-hero-img ">
         <div class="border_bottom">
             <div class="nav_container ">
                 <nav class="bg-nav-clr d-flex align-items-center justify-content-between py_16_39 ">
-                    <img src="./assets/images/svg/logo.svg" alt="logo.svg">
-                    <ul class="d-flex align-items-center mb-0 ps-0 gap-lg-51 gap-30 menulist">
-                        <li><a href=""
-                                class="fw-400 text-15 lh-18 ff-plus color-nav-white position-relative bottom_line ">Redact</a>
+                    <img class="cursor-pointer max-w-150" src="./assets/images/svg/logo.svg" alt="logo.svg">
+                    <ul class="d-flex align-items-center mb-0 ps-0 gap-lg-51 gap-30 menulist" id="navbar">
+                        <li><a href="#Redact"
+                                class="fw-400 text-15 lh-18 ff-plus color-nav_white position-relative nav_ li ne btn-2 " onclick="opeNav()">Redact</a>
                         </li>
-                        <li><a href=""
-                                class="fw-400 text-15 lh-18 ff-plus color-nav-white position-relative bottom_line">Extract</a>
+                        <li><a href="#Extract"
+                                class="fw-400 text-15 lh-18 ff-plus color-nav_white position-relative nav_line" onclick="opeNav()">Extract</a>
                         </li>
-                        <li><a href=""
-                                class="fw-400 text-15 lh-18 ff-plus color-nav-white position-relative bottom_line">Detect</a>
+                        <li><a href="#Detect"
+                                class="fw-400 text-15 lh-18 ff-plus color-nav_white position-relative nav_line" onclick="opeNav()">Detect</a>
 
-                        <li><a href=""
-                                class="fw-400 text-15 lh-18 ff-plus color-nav-white position-relative bottom_line">Compare</a>
+                        <li><a href="#Compare"
+                                class="fw-400 text-15 lh-18 ff-plus color-nav_white position-relative nav_line" onclick="opeNav()">Compare</a>
                         </li>
-                        <li><button class="fw-600 text-16 lh-27 ff-plus color-nav-white nav-btn btn-style">Try
+                        <li><button class="fw-600 text-16 lh-27 ff-plus color-nav_white nav-btn btn-style">Try
                                 Now</button>
                         </li>
                     </ul>
-                    <div class="menuIcon d-lg-none">
+                    <div class="menuIcon d-lg-none " onclick="opeNav()">
                         <span></span>
                         <span></span>
                         <span></span>
@@ -47,7 +47,7 @@
                 </nav>
             </div>
         </div>
-        <div class="custom-container">
+        <div class="custom-container" id="Redact">
             <div class="hero-ellipse position-absolute d-lg-block d-none">
                 <img class="w-100" src="./assets/images/png/her-ellipse.png" alt="ellipse">
             </div>
@@ -80,7 +80,7 @@
         </div>
     </header>
     <!-- ==================================== Images slider  ============================================= -->
-    <section class="pt-5">
+   <section class="pt-5">
         <div class="custom-container">
             <p class="fw-300 text-20 lh-24 ff-plus color-nav-white text-center pb-19 ">In collaboration with</p>
         </div>
@@ -110,9 +110,9 @@
                 <img src="./assets/images/png/rubix-8.png" alt="slider-img">
             </div>
         </div>
-    </section>
+    </section> 
     <!-- =================================== AI Compliance ========================================== -->
-    <section class="pt-5">
+    <section class="pt-lg-5">
         <div class="custom-container">
             <div class="row">
                 <div
@@ -121,9 +121,9 @@
                 </div>
                 <div class="col-lg-6 d-flex flex-column align-items-center justify-content-center">
                     <div class="blank">
-                        <h1 class="fw-500 text-44 lh-55 ff-plus color-white max-w-467  text_center">Compliance Security
+                        <h1 class="fw-500 text-44 lh-55 ff-plus color-white max-w-467  text_center mx_auto">Compliance Security
                             Trust</h1>
-                        <p class="fw-400 text-16 lh-27 ff-plus color-nav-white max-w-474 pb-lg-28 pb-12  text_center ">
+                        <p class="fw-400 text-16 lh-27 ff-plus color-nav-white max-w-474 pb-lg-28 pb-12  text_center mb-0 ">
                             Posuere ultrices aliquet risus malesuada viverra nec praesent. Sed nisl facilisi augue.</p>
                         <div class="d-flex align_items_center justify_content_center  "><button
                                 class="fw-600 text-16 lh-27 ff-plus watch-btn btn-style color-white">Watch Demo
@@ -134,7 +134,7 @@
         </div>
     </section>
     <!-- ====================================== How can we help =========================================== -->
-    <section class="py-lg-100 position-relative">
+    <section class="py-lg-100 py-md-50 py-30 position-relative overflow-x-hi dden overflow-y-hi dden ">
         <div class="help-ellipse position-absolute d-lg-block d-none">
             <img class="w-100" src="./assets/images/png/help-ellipse.png" alt="ellipse">
         </div>
@@ -142,10 +142,10 @@
             <img class="w-100" src="./assets/images/png/acc-ellipse.png" alt="ellipse">
         </div>
         <div class="custom-container">
-            <div class="row">
-                <div class="col-6 d-flex align-ite ms-center flex-column justify-content-center">
-                    <h2 class="fw-500 text-44 lh-55 ff-plus color-white">How we can help?</h2>
-                    <p class="fw-400 text-16 lh-27 color-white max-w-474 pb-lg-28">Whether you handle financial,
+            <div class="row flex-lg-row flex-column-reverse row-gap-3">
+                <div class="col-lg-6 d-flex align-ite ms-center flex-column justify-content-center">
+                    <h2 class="fw-500 text-44 lh-55 ff-plus color-white text_center">How we can help?</h2>
+                    <p class="fw-400 text-16 lh-27 color-white max-w-474 pb-lg-28 text_center mx_auto">Whether you handle financial,
                         government, healthcare, or legal information, iDox.ai allows organizations to reduce risk of
                         human error, combat time sensitive redaction requests, avoid costly penalties at a fraction of
                         the price.</p>
@@ -153,10 +153,10 @@
                             class="fw-600 text-16 lh-27 ff-plus watch-btn btn-style color-white">Watch Demo
                             Video</button></div>
                 </div>
-                <div class="col-6">
-                    <div class="accordion-box">
-                        <div class="timeSaving_box active">
-                            <div class="accordionHead d-flex gap_22 ">
+                <div class="col-lg-6 d-flex align_items_center justify_content_center flex-column">
+                    <div class="accordion-box mb-10">
+                        <div class="timeSaving_box active ">
+                            <div class="accordionHead d-flex gap_22 mt-10 ">
                                 <div class="timeSaving_Iconbox  d_none ">
                                     <svg width="30" height="29" viewBox="0 0 30 29" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
@@ -177,7 +177,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-box">
+                    <div class="accordion-box mb-10">
                         <div class="timeSaving_box ">
                             <div class="accordionHead d-flex gap_22 ">
                                 <div class="timeSaving_Iconbox  d_none ">
@@ -200,7 +200,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-box">
+                    <div class="accordion-box mb-10">
                         <div class="timeSaving_box ">
                             <div class="accordionHead d-flex gap_22 ">
                                 <div class="timeSaving_Iconbox  d_none ">
@@ -224,7 +224,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-box">
+                    <div class="accordion-box mb-10">
                         <div class="timeSaving_box ">
                             <div class="accordionHead d-flex gap_22 ">
                                 <div class="timeSaving_Iconbox  d_none ">
@@ -247,7 +247,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-box">
+                    <div class="accordion-box mb-10">
                         <div class="timeSaving_box ">
                             <div class="accordionHead d-flex gap_22 ">
                                 <div class="timeSaving_Iconbox  d_none ">
@@ -270,7 +270,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="accordion-box">
+                    <div class="accordion-box mb-10">
                         <div class="timeSaving_box ">
                             <div class="accordionHead d-flex gap_22 ">
                                 <div class="timeSaving_Iconbox  d_none ">
@@ -297,7 +297,7 @@
             </div>
     </section>
     <!-- ===================================== How we bring value ========================================= -->
-    <section class="py-lg_112_94 py-md-50 py-sm-40 py-20 position-relative">
+    <section class="py-lg_112_94 py-md-50 py-sm-40 py-20 position-relative overflow-x-hid den" id="Extract">
         <div class="position-absolute value-ellipse-1 d-lg-block d-none">
             <img class="w-100" src="./assets/images/png/value-ellipse-1.png" alt="ellipse">
         </div>
@@ -306,7 +306,7 @@
         </div>
         <div class="custom-container">
             <div class="row flex-lg-row flex-column-reverse">
-                <div class="col-lg-6 d-flex align-ite ms-center justify-content-center flex-column pt-lg-30">
+                <div class="col-lg-6 d-flex align_items_center justify-content-center flex-column pt-lg-30">
                     <h2 class="fw-500 text-44 lh-55 ff-plus color-white pb-lg-44 pb-20">How We Bring Value</h2>
                     <div class="value-box d-flex align-items-center mb-3 ">
                         <div class="d-flex align-items-center gap-14 ">
@@ -368,7 +368,7 @@
         </div>
     </section>
     <!-- ====================================== Testimonials ================================= -->
-    <section class="pb-lg-130 pb-md-50 pb-sm-30 pb-20 pt-18">
+     <section class="pb-lg-130 pb-md-50 pb-sm-30 pb-20 pt-18 overflow-hidden">
         <h2 class="fw-500 text-44 lh-55 color-white text-center ff-plus pb-lg-46 pb-20">Testimonials</h2>
         <div class="responsive w-100">
             <div class="testi-box opacit y_20 d-flex align-items-center justify-content-center mx-auto">
@@ -413,9 +413,9 @@
             </div>
 
         </div>
-    </section>
+    </section>  
     <!-- ====================================== we provide solution ============================== -->
-    <section class="position-relative">
+    <section class="position-relative overflow-hid den" >
         <div class="position-absolute secure-ellipse-1 d-lg-block d-none">
             <img class="w-100" src="./assets/images/png/secure-ellipse-1.png" alt="ellipse">
         </div>
@@ -444,7 +444,7 @@
         </div>
     </section>
     <!-- ==================================== how it works ========================================= -->
-    <section class="pt-lg-131 pt-md-60 pt-20 position-relative">
+    <section class="pt-lg-131 pt-md-60 pt-20 position-relative overflow-hidden" id="Detect">
         <div class="work-ellipse position-absolute d-lg-block d-none">
             <img class="w-100" src="./assets/images/png/work-ellipse.png" alt="elipse">
         </div>
@@ -591,7 +591,7 @@
                     </p>
                 </div>
                 <div
-                    class="col-xl-3 col-lg-4 col-sm-6 d-flex align-items-center justify-content-center flex-column pt-xl-0 pt-sm-4">
+                    class="col-xl-3 col-lg-4 col-sm-6 d-flex align-items-center justify-content-center flex-column pt-lg-0 pt-sm-4">
                     <div class="get-parent-box position-relative">
                         <div class="position-absolute plus-img">
                             <img src="./assets/images/png/right-tick.png" alt="img">
@@ -655,7 +655,7 @@
         </div>
     </section>
     <!-- ===================================== intregations ======================================= -->
-    <section class="pt-10 pb-5 position-relative">
+    <section class="pt-10 pb-5 position-relative overflow-hid den">
         <div class="position-absolute d-lg-block d-none inte-ellipse ">
             <img class="w-100" src="./assets/images/png/inti-ellipse.png" alt="ellipse">
         </div>
@@ -704,7 +704,7 @@
         </div>
     </section>
     <!-- ===================================== accelerate your ====================================== -->
-    <section class="pt-lg-121 pt-md-60 pt-30 pb-lg-130 pb-md-50 pb-20 position-relative">
+    <section class="pt-lg-121 pt-m d-60 p t-30 pb-lg-130 pb-md-50 pb-20 position-relative overflow-hidden">
         <div class="position-absolute d-lg-block d-none accelerate-ellipse">
             <img class="w-100" src="./assets/images/png/accelerate-ellipse.png" alt="ellipse">
         </div>
@@ -725,13 +725,13 @@
                     </div>
                 </div>
                 <div class="col-lg-6">
-                    <img class="w-100" src="./assets/images/png/acc-img.png" alt="img">
+                    <img class="w-100" src="./assets/images/png/acc-full-img.png" alt="img">
                 </div>
             </div>
         </div>
     </section>
     <!-- ===================================== choose the plan ========================================= -->
-    <section class="position-relative">
+    <section class="position-relative overflow-x-hi dden pt-lg-70" id="Compare">
         <div class="position-absolute d-lg-block d-none choose-ellipse-1">
             <img class="w-100" src="./assets/images/png/choose-ellipse-1.png" alt="ellipse">
         </div>
@@ -848,7 +848,7 @@
                 <div class="d-flex align-items-center justify-content-between w-100">
                     <input type="text" placeholder="Enter your email here"
                         class="fw-400 text-16 lh-27 ff-plus color-white w-100 mail_style">
-                    <button class="fw-600 text-16 lh-27 color-white ff-plus sign-btn text-nowrap ms-3">Sign up
+                    <button class="fw-600 text-16 lh-27 color-white ff-plus sign-btn text-nowrap ms-3 btn-style">Sign up
                         now</button>
                 </div>
             </div>
@@ -1009,6 +1009,15 @@
         <div class=" max-w-419 mx-auto">
             <p class="fw-400 text-16 lh-20 color-white ff-plus mb-0 py-27 ">2024 © Foxit Software Incorporated. All
                 rights reserved.</p>
+        </div>
+        <div class="topBtn pulse d-flex align-items-center justify-content-center pulse  ">
+            <svg xmlns="http://www.w3.org/2000/svg" width="21" height="21" fill="white"
+                class="bi bi-chevron-double-up" viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M7.646 2.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 3.707 2.354 9.354a.5.5 0 1 1-.708-.708z" />
+                <path fill-rule="evenodd"
+                    d="M7.646 6.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1-.708.708L8 7.707l-5.646 5.647a.5.5 0 0 1-.708-.708z" />
+            </svg>
         </div>
     </footer>
 
