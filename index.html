@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.css"
         integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" integrity="sha512-1cK78a1o+ht2JcaW6g8OXYwqpev9+6GqOkz9xmBN9iUUhIndKtxwILGWYOSibOKjLsEdjyjZvYDq/cZwNeak0w==" crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
 </head>
 
 <body class="body-bg-clr overflow-x-hidden">
@@ -24,7 +25,7 @@
                     <img class="cursor-pointer max-w-150" src="./assets/images/svg/logo.svg" alt="logo.svg">
                     <ul class="d-flex align-items-center mb-0 ps-0 gap-lg-51 gap-30 menulist" id="navbar">
                         <li><a href="#Redact"
-                                class="fw-400 text-15 lh-18 ff-plus color-nav_white position-relative nav_ li ne btn-2 " onclick="opeNav()">Redact</a>
+                                class="fw-400 text-15 lh-18 ff-plus color-nav_white position-relative nav_line " onclick="opeNav()">Redact</a>
                         </li>
                         <li><a href="#Extract"
                                 class="fw-400 text-15 lh-18 ff-plus color-nav_white position-relative nav_line" onclick="opeNav()">Extract</a>
@@ -82,7 +83,7 @@
     <!-- ==================================== Images slider  ============================================= -->
    <section class="pt-5">
         <div class="custom-container">
-            <p class="fw-300 text-20 lh-24 ff-plus color-nav-white text-center pb-19 ">In collaboration with</p>
+            <p class="fw-300 text-20 lh-24 ff-plus color-nav-white text-center pb-19 " >In collaboration with</p>
         </div>
         <div class="parentBox">
             <div class="slideBox">
@@ -113,10 +114,10 @@
     </section> 
     <!-- =================================== AI Compliance ========================================== -->
     <section class="pt-lg-5">
-        <div class="custom-container">
-            <div class="row">
+        <div class="custom-container" data-aos="fade-dow n">
+            <div class="row" >
                 <div
-                    class="col-lg-6 d-flex flex-column align-items-center justify-content-lg-start justify-content-center">
+                    class="col-lg-6 d-flex flex-column align-items-center justify-content-lg-start justify-content-center" >
                     <img class="w-100 max-w-615" src="./assets/images/png/AI-img.png" alt="AI-img.png">
                 </div>
                 <div class="col-lg-6 d-flex flex-column align-items-center justify-content-center">
@@ -142,7 +143,7 @@
             <img class="w-100" src="./assets/images/png/acc-ellipse.png" alt="ellipse">
         </div>
         <div class="custom-container">
-            <div class="row flex-lg-row flex-column-reverse row-gap-3">
+            <div class="row flex-lg-row flex-column-reverse row-gap-3" data-aos="fade-up">
                 <div class="col-lg-6 d-flex align-ite ms-center flex-column justify-content-center">
                     <h2 class="fw-500 text-44 lh-55 ff-plus color-white text_center">How we can help?</h2>
                     <p class="fw-400 text-16 lh-27 color-white max-w-474 pb-lg-28 text_center mx_auto">Whether you handle financial,
@@ -295,9 +296,10 @@
                     </div>
                 </div>
             </div>
+            </div>
     </section>
     <!-- ===================================== How we bring value ========================================= -->
-    <section class="py-lg_112_94 py-md-50 py-sm-40 py-20 position-relative overflow-x-hid den" id="Extract">
+    <section class="py-lg_112_94 py-md-50 py-sm-40 py-20 position-relative overflow-x-hid den" id="Extract" data-aos="zoom-ou t">
         <div class="position-absolute value-ellipse-1 d-lg-block d-none">
             <img class="w-100" src="./assets/images/png/value-ellipse-1.png" alt="ellipse">
         </div>
@@ -368,7 +370,7 @@
         </div>
     </section>
     <!-- ====================================== Testimonials ================================= -->
-     <section class="pb-lg-130 pb-md-50 pb-sm-30 pb-20 pt-18 overflow-hidden">
+     <section class="pb-lg-130 pb-md-50 pb-sm-30 pb-20 pt-18 overflow-hidden" data-aos="flip-u p">
         <h2 class="fw-500 text-44 lh-55 color-white text-center ff-plus pb-lg-46 pb-20">Testimonials</h2>
         <div class="responsive w-100">
             <div class="testi-box opacit y_20 d-flex align-items-center justify-content-center mx-auto">
@@ -415,7 +417,7 @@
         </div>
     </section>  
     <!-- ====================================== we provide solution ============================== -->
-    <section class="position-relative overflow-hid den" >
+    <section class="position-relative overflow-hid den" data-aos="fade-rig ht" >
         <div class="position-absolute secure-ellipse-1 d-lg-block d-none">
             <img class="w-100" src="./assets/images/png/secure-ellipse-1.png" alt="ellipse">
         </div>
@@ -441,21 +443,20 @@
                 </div>
             </div>
         </div>
-        </div>
     </section>
     <!-- ==================================== how it works ========================================= -->
     <section class="pt-lg-131 pt-md-60 pt-20 position-relative overflow-hidden" id="Detect">
         <div class="work-ellipse position-absolute d-lg-block d-none">
             <img class="w-100" src="./assets/images/png/work-ellipse.png" alt="elipse">
         </div>
-        <div class="custom-container">
+        <div class="custom-container" >
             <h2 class="fw-500 text-44 lh-55 color-white ff-plus text-center mb-0">How it works</h2>
             <p class="fw-400 text-16 lh-27 ff-plus color-white opacity_70 text-center pb-lg-58 pb-md-30 pb-10">Only 2
                 minutes redacting a 10
                 page document
             <p>
             <div class="row pb-lg-76 pb-md-30 pb-10 justify-content-center">
-                <div class="col-xl-3 col-lg-4 col-sm-6 d-flex align-items-center justify-content-center flex-column ">
+                <div class="col-xl-3 col-lg-4 col-sm-6 d-flex align-items-center justify-content-center flex-column " data-aos="flip-rig ht">
                     <div class="get-parent-box position-relative">
                         <div class="arrow-pstn d-md-block d-none">
                             <img src="./assets/images/png/arrow.png" alt="arrow.png">
@@ -479,7 +480,7 @@
                                     select a file
                                 </p>
                                 <button class="add-btn d-flex align-items-center gap-6 justify-content-center">
-                                    <p class="fw-500 text-9 lh-15 color-white ff-poppins mb-0">Add Document</p>
+                                    <span class="fw-500 text-9 lh-15 color-white ff-poppins mb-0">Add Document</span>
                                     <svg width="15" height="15" viewBox="0 0 15 15" fill="none"
                                         xmlns="http://www.w3.org/2000/svg">
                                         <path
@@ -493,7 +494,7 @@
                     <p class="mb-0 color-white fw-500 text-20 lh-28 ff-plus pt-lg-25 opacity_90 pt-10">Click to select a
                         file</p>
                 </div>
-                <div class="col-xl-3 col-lg-4 col-sm-6 d-flex align-items-center justify-content-center flex-column">
+                <div class="col-xl-3 col-lg-4 col-sm-6 d-flex align-items-center justify-content-center flex-column " data-aos="flip-rig ht">
                     <div class="get-parent-box position-relative">
                         <div class="position-absolute plus-img">
                             <img src="./assets/images/png/right-tick.png" alt="img">
@@ -591,7 +592,7 @@
                     </p>
                 </div>
                 <div
-                    class="col-xl-3 col-lg-4 col-sm-6 d-flex align-items-center justify-content-center flex-column pt-lg-0 pt-sm-4">
+                    class="col-xl-3 col-lg-4 col-sm-6 d-flex align-items-center justify-content-center flex-column pt-lg-0 pt-sm-4 " data-aos="flip-rig ht">
                     <div class="get-parent-box position-relative">
                         <div class="position-absolute plus-img">
                             <img src="./assets/images/png/right-tick.png" alt="img">
@@ -621,7 +622,7 @@
                         AI</p>
                 </div>
                 <div
-                    class="col-xl-3 col-lg-4 col-sm-6 d-flex align-items-center justify-content-center flex-column pt-xl-0 pt-sm-4">
+                    class="col-xl-3 col-lg-4 col-sm-6 d-flex align-items-center justify-content-center flex-column pt-xl-0 pt-sm-4" data-aos="flip-r ight">
                     <div class="get-parent-box position-relative">
                         <div class="position-absolute plus-img">
                             <img src="./assets/images/png/right-tick.png" alt="img">
@@ -652,7 +653,6 @@
                     class="fw-600 text-16 lh-27 ff-plus color-white btn-style try-btn mb-lg-164 mb-md-70 mb-20">Try
                     Now</button></div>
         </div>
-        </div>
     </section>
     <!-- ===================================== intregations ======================================= -->
     <section class="pt-10 pb-5 position-relative overflow-hid den">
@@ -666,38 +666,36 @@
                 <div class="Y-line position-absolute"></div>
                 <div class="Y-line-3 position-absolute"></div>
                 <div
-                    class="col-lg-3 col-md-4 col-sm-6 border_right d-flex align-items-center justify-content-center py-58-63 py-md-30 py-10">
+                    class="col-lg-3 col-md-4 col-sm-6 border_right d-flex align-items-center justify-content-center py-58-63 py-md-30 py-10" data-aos="zoom-in-up">
                     <img src="./assets/images/png/drive-img.png" alt="img">
                 </div>
                 <div
-                    class="col-lg-3 col-md-4 col-sm-6 border_right d-flex align-items-center justify-content-center py-58-63 py-md-30 py-10">
+                    class="col-lg-3 col-md-4 col-sm-6 border_right d-flex align-items-center justify-content-center py-58-63 py-md-30 py-10" data-aos="zoom-in-up">
                     <img src="./assets/images/png/dropbox.png" alt="img">
                 </div>
                 <div
-                    class="col-lg-3 col-md-4 col-sm-6 border_right d-flex align-items-center justify-content-center py-58-63 py-md-30 py-10">
+                    class="col-lg-3 col-md-4 col-sm-6 border_right d-flex align-items-center justify-content-center py-58-63 py-md-30 py-10" data-aos="zoom-in-up">
                     <img src="./assets/images/png/box.png" alt="img">
                 </div>
                 <div
-                    class="col-lg-3 col-md-4 col-sm-6 right-border d-flex align-items-center justify-content-center py-58-63 py-md-30 py-10">
+                    class="col-lg-3 col-md-4 col-sm-6 right-border d-flex align-items-center justify-content-center py-58-63 py-md-30 py-10" data-aos="zoom-in-up">
                     <img src="./assets/images/png/nd.png" alt="img">
                 </div>
-                <!-- </div> -->
-                <!-- <div class="row"> -->
                 <div
-                    class="col-lg-3 col-md-4 col-sm-6 py-58-63 py-md-30 py-10 border_right d-flex align-items-center justify-content-center">
+                    class="col-lg-3 col-md-4 col-sm-6 py-58-63 py-md-30 py-10 border_right d-flex align-items-center justify-content-center" data-aos="zo om-in-up">
                     <img src="./assets/images/png/exchange.png" alt="img">
                 </div>
                 <div
-                    class="col-lg-3 col-md-4 col-sm-6 border_right d-flex align-items-center justify-content-center py-58-63 py-md-30 py-10">
+                    class="col-lg-3 col-md-4 col-sm-6 border_right d-flex align-items-center justify-content-center py-58-63 py-md-30 py-10" data-aos="zoom-in-up">
                     <img src="./assets/images/png/amazon.png" alt="img">
                 </div>
                 <div class="Y-line-2 position-absolute"></div>
                 <div
-                    class="col-lg-3 col-md-4 col-sm-6 border_right d-flex align-items-center justify-content-center py-58-63 py-md-30 py-10">
+                    class="col-lg-3 col-md-4 col-sm-6 border_right d-flex align-items-center justify-content-center py-58-63 py-md-30 py-10" data-aos="zoom-in-up">
                     <img src="./assets/images/png/sharepoint.png" alt="img">
                 </div>
                 <div
-                    class="col-lg-3 col-md-4 col-sm-6 right-border  d-flex align-items-center justify-content-center py-58-63 py-md-30 py-10">
+                    class="col-lg-3 col-md-4 col-sm-6 right-border  d-flex align-items-center justify-content-center py-58-63 py-md-30 py-10" data-aos="zoom-in-up">
                     <img src="./assets/images/png/onedrive.png" alt="img">
                 </div>
             </div>
@@ -709,7 +707,7 @@
             <img class="w-100" src="./assets/images/png/accelerate-ellipse.png" alt="ellipse">
         </div>
         <div class="custom-container">
-            <div class="row flex-lg-row flex-column-reverse align-items-center justify-content-center ">
+            <div class="row flex-lg-row flex-column-reverse align-items-center justify-content-center " data-aos="fa de-up">
                 <div class="col-lg-6 pt-lg-3 2 d-flex align_items_center justify_content_center flex-column">
 
                     <h2 class="fw-500 text-44 lh-55 ff-plus color-white max-w-525 mx-auto text_center">Accelerate Your
@@ -741,7 +739,7 @@
         <div class="custom-container">
             <h2 class="fw-500 text-44 lh-55 ff-plus color-white text-center pb-lg-56 pb-20">Choose The Plan Best Fits
                 For You</h2>
-            <div class="row position-relative d-flex align-items-center justify-content-center">
+            <div class="row position-relative d-flex align-items-center justify-content-center" data-aos="zoom-out">
                 <div class="acc-line-1 position-absolute"></div>
                 <div class="acc-line-2 position-absolute"></div>
                 <div class="acc-line-3 position-absolute"></div>
@@ -838,7 +836,7 @@
         </div>
     </section>
     <!-- ====================================== get started today ====================================== -->
-    <section class="get-bg-img py-lg-121 py-md-70 py-30">
+    <section class="get-bg-img py-lg-121 py-md-70 py-30"  data-aos="fade-down">
         <div class="custom-container">
             <h2 class="fw-500 text-44 lh-55 ff-plus color-white text-center">Get Started Today!</h2>
             <p class="fw-400 text-16 lh-27 ff-plus color-white opacity_70 max-w-617 mx-auto text-center pb-lg-46">Arcu
@@ -1033,6 +1031,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
         crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js" integrity="sha512-A7AYk1fGKX6S2SsHywmPkrnzTZHrgiVT7GcQkLGDe2ev0aWb8zejytzS8wjo7PGEXKqJOrjQ4oORtnimIRZBtw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./assets/js/script.js"></script>
 </body>
 

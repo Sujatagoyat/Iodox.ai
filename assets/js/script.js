@@ -86,3 +86,6 @@ const show = document.querySelector(".show");
   topBtn.addEventListener("click", function () {
       document.documentElement.scrollTop = 0;
   })
+  AOS.init({
+    duration:1200,
+  })
