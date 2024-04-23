@@ -69,3 +69,10 @@ const accordionHead = document.querySelectorAll(".accordionHead");
   const activeAccordion = document.querySelector(".active")
    e.parentElement.classList.toggle("active")
     activeAccordion && activeAccordion.classList.remove("active") }) })
+
+    $(document).ready(function () {
+      $('.show_plan').on('click', function () {
+          $('.show_plan').removeClass('active');
+          $(this).addClass('active');
+      })
+    });
