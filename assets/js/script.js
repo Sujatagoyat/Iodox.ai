@@ -62,11 +62,10 @@ $('.responsive').slick({
   ]
 });
 //      Accordion
+
 const accordionHead = document.querySelectorAll(".accordionHead");
-accordionHead.forEach((e) => {
-    e.addEventListener("click", () => {
-        const activeAccordion = document.querySelector(".active")
-        e.parentElement.classList.toggle("active")
-        activeAccordion && activeAccordion.classList.remove("active")
-    })
-})
+ accordionHead.forEach((e) => {
+   e.addEventListener("click", () => { 
+  const activeAccordion = document.querySelector(".active")
+   e.parentElement.classList.toggle("active")
+    activeAccordion && activeAccordion.classList.remove("active") }) })
