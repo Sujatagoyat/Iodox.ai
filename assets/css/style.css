@@ -54,6 +54,8 @@
     --fc-select: #00000054;
     --fc-black: #000000;
     --fc-footerbg: #0389FF14;
+    --fc-lightblue: #0066FF;
+
 
 
 
@@ -805,9 +807,13 @@ input[type="checkbox"]:checked {
     z-index: -1;
 }
 .choose-ellipse-2{
-    top: 0%;
-    left: -37%;
+    max-width: 536px;
+    height: 156px;
+    top: 5%;
+    left: -16%;
     z-index: -1;
+    filter: blur(88px);
+    opacity: 91%;
 }
 .show_plan.active .dollor.color-white{
     color: var(--fc-blue);
@@ -1447,8 +1453,6 @@ input[type="checkbox"]:checked {
         right: 12px;
         /* position: fixed; */
     }
-
-
     .menuIcon>span {
         width: 100%;
         height: 4px;
