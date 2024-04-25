@@ -55,6 +55,7 @@
     --fc-black: #000000;
     --fc-footerbg: #0389FF14;
     --fc-lightblue: #0066FF;
+   --fc-offwhite: #808B93;
 
 
 
@@ -882,7 +883,7 @@ input[type="checkbox"]:checked {
     width: 32px;
     height: 32px;
     border-radius: 50%;
-    border: 1px solid white;
+    border: 1px solid var(--fc-offwhite);
     background: transparent;
 }
 
@@ -1033,6 +1034,9 @@ input[type="checkbox"]:checked {
 .topBtn.show {
     opacity: 1;
     visibility: visible;
+}
+.opacity_50{
+    opacity: 50%;
 }
 .pulse {
     animation: pulse-animation  2s infinite;
