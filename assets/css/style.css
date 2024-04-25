@@ -496,6 +496,16 @@
 .responsive .slick-slide:not(.slick-current){
     opacity: 50%;
 }
+.slider-ellipse{
+   width:381.48px;
+    height:191px;
+    background-color: var(--fc-lightblue);
+    top: 17px;
+    left: 28%;
+    filter: blur(59px);
+    opacity: 24%;
+    z-index: -1;
+}
 
 /* =============================== we provide solution ====================================== */
 .opacity_70 {
@@ -880,11 +890,12 @@ input[type="checkbox"]:checked {
 }
 
 .svg-box {
-    width: 32px;
-    height: 32px;
+    width: 34px;
+    height: 34px;
     border-radius: 50%;
     border: 1px solid var(--fc-offwhite);
     background: transparent;
+    /* padding: 7px 8px 8px 7px; */
 }
 
 .gap-10 {
@@ -932,6 +943,9 @@ input[type="checkbox"]:checked {
 
 .f-link:hover::after {
     width: 100%;
+}
+.insta_padding{
+    padding: 3px 8px 8px 7px;
 }
 
 .cursor-pointer {
