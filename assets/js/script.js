@@ -18,7 +18,6 @@ $('.parentBox').slick({
   pauseOnHover: true,
   cssEase: 'linear',
 });
-
 $('.responsive').slick({
   dots: true,
   infinite: true,
@@ -60,7 +59,6 @@ $('.responsive').slick({
   ]
 });
 //      Accordion
-
 const accordionHead = document.querySelectorAll(".accordionHead");
  accordionHead.forEach((e) => {
    e.addEventListener("click", () => { 
@@ -85,7 +83,4 @@ const show = document.querySelector(".show");
   })
   topBtn.addEventListener("click", function () {
       document.documentElement.scrollTop = 0;
-  })
-  AOS.init({
-    duration:1200,
   })
